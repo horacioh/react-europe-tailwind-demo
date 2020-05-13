@@ -1,8 +1,14 @@
-# Gatsby Tailwind Theming example
+# React Europw 2020 Tailwind demo
 
-This is a basic example of how to setup theming using Tailwind + PostCSS. checkout the repo for more information!
+## things covered on this demo:
 
-[Live Example: https://gatsby-tailwind-theming-example.netlify.com/](https://gatsby-tailwind-theming-example.netlify.com/)
+- Tailwind Setup on a Gatsby project
+- PurgeCSS for production setup
+- style simple components
+- hover states
+- CSS transitions
+- spacing elements with margin
+- toggle elements trick to avoid UI jumps
 
 Developed by [Horacio Herrera](https://horacioh.com)
 
