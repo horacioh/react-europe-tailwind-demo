@@ -1,13 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-
-function Label({ children, className, htmlFor, ...props }) {
-  return (
-    <label className={`font-bold text-gray-700 ${className}`} htmlFor={htmlFor}>
-      {children}
-    </label>
-  )
-}
+// import Label from '../components/label'
 
 export default function Index() {
   const [toggleErrors, setToggleErrors] = React.useState(false)
