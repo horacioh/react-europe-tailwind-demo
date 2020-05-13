@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-tailwind-theming-example",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.19.45",
+    "gatsby-plugin-postcss": "^2.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horacioh/gatsby-tailwind-theming-example"
+  },
+  "bugs": {
+    "url": "https://github.com/horacioh/gatsby-tailwind-theming-example/issues"
+  }
+}
