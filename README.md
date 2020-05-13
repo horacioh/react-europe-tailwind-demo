@@ -1,4 +1,4 @@
-# Hijacking CSS with tail
+# Hijacking CSS with tailwindCSS
 
 > 👉 MAIN GOAL: to help designers and developers understand the tool and make their own judgement if it works for them or not!
 
@@ -56,18 +56,6 @@
   - What is the level of expertise on CSS do you have? your team?
   - How much tide coupled is your current project to the actual CSS?
 
-## References
-
-✅ Tailwind Community page: https://tailwindcss.com/community
-✅ tailwind Discord channel: https://discord.gg/qwxKNt
-✅ awesome-tailwindcss: https://github.com/aniftyco/awesome-tailwindcss
-✅ Tailwind UI: https://tailwindui.com
-
-✅ Twitter Thread 1: https://hhg.link/tailwind-thread-1
-✅ Twitter Thread 2: https://hhg.link/tailwind-thread-2
-✅ Theming Tutorial (🇬🇧): https://hhg.link/tailwind-theming-en
-✅ Theming Tutorial (🇪🇸): https://hhg.link/tailwind-theming-es
-
 ## Other Solutions I like:
 
 - https://modulz.app
@@ -81,3 +69,24 @@
 - [styled-components](https://styled-components.com)...)
 
 - ol' Plain CSS 😉 (of course!!)
+
+## References
+
+- ✅ Tailwind Community page: https://tailwindcss.com/community
+- ✅ tailwind Discord channel: https://discord.gg/qwxKNt
+- ✅ awesome-tailwindcss: https://github.com/aniftyco/awesome-tailwindcss
+- ✅ Tailwind UI: https://tailwindui.com
+
+- ✅ Twitter Thread 1: https://hhg.link/tailwind-thread-1
+- ✅ Twitter Thread 2: https://hhg.link/tailwind-thread-2
+- ✅ Theming Tutorial (🇬🇧): https://hhg.link/tailwind-theming-en
+- ✅ Theming Tutorial (🇪🇸): https://hhg.link/tailwind-theming-es
+
+## 👋 THANKS!!
+
+- [Twitter](https://hhg.link/twitter)
+- [Twitch](https://hhg.link/twitch)
+- [Youtube](https://hhg.link/youtube)
+- [Website](https://horacioh.com)
+
+- [This repo](https://hhg.link/re2020-tailwind-talk)
