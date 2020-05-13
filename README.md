@@ -37,7 +37,7 @@
 - Plugins!: https://github.com/aniftyco/awesome-tailwindcss#plugins (mention: https://github.com/chrisrowe/tailwindcss-triangle-after)
 - Enforce consistency!
 
-## DEMO:
+## DEMO: https://hhg.link/re2020-tailwind-talk
 
 ## Misconceptions about Tailwind
 
