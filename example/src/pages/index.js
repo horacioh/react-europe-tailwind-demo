@@ -1,13 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-
-function Label({ children, className, htmlFor, ...props }) {
-  return (
-    <label className={`font-bold text-gray-700 ${className}`} htmlFor={htmlFor}>
-      {children}
-    </label>
-  )
-}
+import Label from "../components/label"
 
 export default function Index() {
   const [toggleErrors, setToggleErrors] = React.useState(false)
@@ -30,7 +23,50 @@ export default function Index() {
             toggle errors
           </button>
           {/* Form Wrapper */}
-          <p>FORM HERE</p>
+          <div className="mx-auto w-full max-w-xs bg-white p-8 rounded-md shadow-md">
+            <form>
+              {/* form control input */}
+              <div className="relative mb-10">
+                <Label htmlFor="username">Username</Label>
+                <input
+                  placeholder="username"
+                  type="text"
+                  name="username"
+                  id="username"
+                  className="mt-2 border border-gray-300 px-3 py-2 rounded w-full"
+                />
+                {toggleErrors && (
+                  <p className="absolute text-red-500 font-semibold text-sm mt-1">
+                    username error!
+                  </p>
+                )}
+              </div>
+              {/* form control input */}
+              <div className="relative mb-10">
+                <Label htmlFor="password">Password</Label>
+                <input
+                  placeholder="password"
+                  type="text"
+                  name="password"
+                  id="password"
+                  className="mt-2 border border-gray-300 px-3 py-2 rounded w-full"
+                />
+                {toggleErrors && (
+                  <p className="absolute text-red-500 font-semibold text-sm mt-1">
+                    password error!
+                  </p>
+                )}
+              </div>
+              <div>
+                <button
+                  className="bg-blue-500 hover:bg-blue-700 transition text-white px-4 py-2 rounded shadow duration-200"
+                  type="submit"
+                >
+                  submit
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
         <p className="text-center mt-8 text-xl text-body">
           Developed by{" "}
