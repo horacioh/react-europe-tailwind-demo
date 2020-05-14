@@ -23,7 +23,7 @@ export default function Index() {
             toggle errors
           </button>
           {/* Form Wrapper */}
-          <div className="mx-auto w-full max-w-xs bg-white p-8 rounded-md shadow-md">
+          <div className="mx-auto w-full md:max-w-md bg-white p-8 rounded-md shadow-md">
             <form>
               {/* form control input */}
               <div className="relative mb-10">
