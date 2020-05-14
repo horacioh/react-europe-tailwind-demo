@@ -12,9 +12,9 @@
 
 ### Setting some context
 
-- using it for almost form X time?
+- using it for almost form a couple of months
 - I use to code all my CSS
-- reinforce my design background
+- originally a Digital Designer
 
 ### Tailwind
 
